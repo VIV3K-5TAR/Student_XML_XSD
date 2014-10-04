@@ -158,7 +158,7 @@
 
 <xs:simpleType name="mail">
     <xs:restriction base="xs:string">
-        <xs:pattern value="([0-9][a-z][A-Z])+@.com"/>
+        <xs:pattern value="([0-9][a-z][A-Z])+@[a-z].com"/>
     </xs:restriction>
 </xs:simpleType>
 
